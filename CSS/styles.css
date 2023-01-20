@@ -1,0 +1,99 @@
+  body {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: auto;
+    color: hsl(224, 23%, 55%);
+  }
+
+  h1,
+  h4 {
+    color: black;
+  }
+h4{
+  margin:0 auto  0 auto;
+}
+h1{
+  font-size: 22px;
+}
+  p {
+    font-size: 16px;
+    margin:0 auto 20px auto;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .container {
+    background-color: white;
+    width: 320px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin: 7% auto 7% auto;
+
+  }
+
+  .header {
+    margin: 0;
+    /* background-color: hsl(245, 75%, 52%); */
+    border: 1px solid transparent;
+    border-radius: 10px 10px 0 0;
+  }
+.header img{
+width:320px;  
+border: 1px solid transparent;
+border-radius: 15px 15px 0 0;
+}
+  .message {
+    padding: 5% 10% 5% 10%;
+  }
+
+  .pricing {
+    display: flex;
+    place-content: center;
+    justify-content: space-around;
+  }
+.plan
+{
+  display:grid;
+  grid-template-columns: auto auto;
+  gap:20px;
+}
+.order
+{
+  margin:40px;
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family:'Red Hat Display', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  background:hsl(245, 75%, 52%);
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  border-color: transparent;
+}
+
+.btn:hover {
+  background:#893cfcff;
+  text-decoration: none;
+cursor:pointer;
+}
+h5:hover{
+  color:black;
+  cursor:pointer;
+}
+a:hover{
+  color:#893cfc;
+  cursor:pointer;
+}
